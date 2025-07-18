@@ -9,17 +9,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icono.png">
     <style>
+        .color{
+            color: blue; /* Azúl */
+        }
+        .color1{
+            color: red; /* Rojo */
+        }
+        .color2{
+            color: yellow; /* Amarillo */
+        }
         h1 {
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             font-size: 60px;
-            color: red;
         }
         li{
             font-family: Arial, Helvetica, sans-serif;
             margin-left: 337px;
             font-size: xx-large;
-            color: rgb(91, 255, 255);
         }
     </style>
 
@@ -27,11 +34,7 @@
 
 <body>
 
-    <div class="tit">
-
-        <h1 style="color: rgb(206, 206, 206);">Juegos</h1>
-
-    </div>
+    <h1 class="tit">Juegos</h1>
 
     <div style="text-align: center;">
 
@@ -59,21 +62,26 @@
 
         <div class="act">
 
-            <h1 style="color: rgb(206, 206, 206);">Actualizaciónes</h1>
+            <h1 style="color: rgb(23, 23, 161)">Actualizaciones</h1>
     
         </div>
     
-        <ul>
+        <div class="box">
+
+            <ul>
     
-            <li style="color: #00ff00;">sanguchedemiga_2024</li>
-            <li style="color: #00ff00;">justjuss_</li>
-            <li>Se Añadió la primera categoría "Juegos"</li>
-            <li>Se Añadió el primer juego "Unreal Tournament 3"</li>
-            <li>Se Añadió el segundo "Sonic & Sega Allstars Racing"</li>
-            <li>Se Añadió el tercer juego "Ultimate Marvel Vs CapCom"</li>
-            <li>Se Añadió la categoría "Actualizaciónes"</li>
-    
-        </ul>
+                <li style="color: cyan;">sanguchedemiga_2024</li>
+                <li style="color: cyan;">justjuss_</li>
+                <li style="color: lightblue">Se Añadió la primera categoría "<span class="juegos">Juegos</span>"</li>
+                <li style="color: lightblue">Se Añadió el primer juego "<span style="color: red;">Unreal Tournament 3</span>"</li>
+                <li style="color: lightblue">Se Añadió el segundo "<span style="color: blue;">Sonic & Sega Allstars Racing</span>"</li>
+                <li style="color: lightblue">Se Añadió el tercer juego "<span class="color">Ultimate</span> <span class="color1">Marvel</span> <span class="color2"> vs Capcom</span></li>
+                <li style="color: lightblue">Se Añadió la categoría "<span class="act2">Actualizaciones</span>"</li>
+        
+            </ul>
+
+        </div>
+        
 
     </footer>
 
