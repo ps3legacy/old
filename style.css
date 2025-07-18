@@ -11,9 +11,16 @@ body{
 
 }
 
-.imag{
+.img2{
 
     margin-right: 30px;
-    border: 7px dotted aqua;
+    border: 8px dotted aqua;
+
+}
+
+.img3{
+
+    margin-right: 30px;
+    border: 9px dotted blue;
 
 }
