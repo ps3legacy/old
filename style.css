@@ -1,12 +1,28 @@
 body{
     background-color: #1b1b1b;
 }
+
+.resolucion{
+    width: 99%;
+}
+/* Movil */
+@media (max-width: 767px){
+
+    .pc{display: none;}
+
+}
+/* PC */
+@media (min-width: 991px){
+
+    .movil{display: none;}
+
+}
+/* PC CCS */
 .tit{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: red;
 }
 .img1{
-
     margin-right: 30px;
     border: 7px dotted red;
 }
@@ -30,5 +46,37 @@ body{
 }
 .act2{
     color: rgb(31, 31, 211);
+    text-shadow: 10px 5px #000000;
+}
+
+/* TELEFONO CSS */
+.titmovil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+.img1movil{
+    margin-right: 20px;
+    border: 7px dotted red;
+}
+.img2movil{
+    margin-right: 20px;
+    border: 7px dotted aqua;
+}
+.img3movil{
+    margin-right: 20px;
+    border: 7px dotted blue;
+}
+.actmovil{
+    font-size: 40px;
+    color: rgb(23, 23, 161);
+    text-shadow: 8px 2px #000000;
+}
+.boxmovil{
+    background-color: #00000080;
+}
+.act2movil{
+    color: rgb(23, 23, 161);
     text-shadow: 10px 5px #000000;
 }
