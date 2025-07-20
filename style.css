@@ -76,6 +76,10 @@ body{
 .boxmovil{
     background-color: #00000080;
 }
+.juegosmovil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
 .act2movil{
     color: rgb(23, 23, 161);
     text-shadow: 10px 5px #000000;
