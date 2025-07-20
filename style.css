@@ -6,7 +6,7 @@ body{
     width: 99%;
 }
 /* Movil */
-@media (max-width: 720px){
+@media (max-width: 767px){
 
     .pc{display: none;}
 
