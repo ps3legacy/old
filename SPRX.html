@@ -9,21 +9,52 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icono.png">
     <style>
+        body{
+            background-image: url(XP.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
         .linksprx{
             text-align: center;
-            margin-top: 70px;
+            margin: 70px 0 70px 0;
         }
-        h1 {
+        h1{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
             font-size: 40px;
             color: white;
         }
         p{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align: center;
-            font-size: 20px;
+            font-size: 30px;
             color: red;
+            margin: 0 160px 0 160px;
+        }
+        .l{
+            margin: 60px 0 60px 300px ;
+        }
+        .cajxa{
+            padding: 0;
+            margin: 0 70px 0 70px;
+            background-position: center;
+            background-color: #0e0e0ebe;
+        }
+        .cajam{
+            padding: 0;
+            margin: 0 30px 0 30px;
+            background-position: center;
+            background-color: #0e0e0ebe;
+        }
+        .linksm{
+            text-align: center;
+            margin: 70px 0 70px 0;
+        }
+        .lm{
+            margin: 0 0 0 20px;
         }
     </style>
 
@@ -31,25 +62,63 @@
 
 <body>
 
-    <div class="linksprx">
-        <a href="https://www.youtube.com/watch?v=UlpJ1SHft38">
-            <h1 style="color: red; font-size: 60px;">TUTORIAL</h1>
-        </a>
-        <a href="https://www.mediafire.com/file/xk7mgxp0npeh5c8/MC.sprx/file" target="_blank">
-            <h1>LINK 1 (MC.SPRX)</h1>
-        </a>
-        <a href="https://www.mediafire.com/file/54jafpg1gwe5grc/EBOOT.BIN/file" target="_blank">
-            <h1> LINK 2 (EBOOT.BIN)</h1>
-        </a>
-    </div>
-    <div class="rutas">
-        <h1 style="font-size: 60px; color: cyan;">Rutas:</h1>
-        <h1> <span style="color: #00ff00;">MC.SPRX:</span>  devhdd0/tmp</h1>
-        <h1> <span style="color: #00ff00;">EBOOT.BIN:</span>  devhdd0/game/NPUB31419/USRDIR</h1>
-        <p>LA DIRECCIÓN DE EL EBOOT VARÍA SEGÚN LA REGIÓN DE EL JUEGO, EN ESTE CASO SE UTILIZA LA "NPUB31419" PERO SI TIENES, POR EJEMPLO, LA "NPUB1934" TIENES QUE CAMBIAR ESTO:</p>
-        <h1>devhdd0/game/NPUB31419/USRDIR</h1>
-        <p>POR ESTO:</p>
-        <h1>devhdd0/game/NPUB1934/USRDIR</h1>
+    <div class="resolucion">
+
+        <div class="pc">
+            <div class="cajxa">
+                <div class="linksprx">
+                    <a href="https://www.youtube.com/watch?v=UlpJ1SHft38">
+                        <h1 style="color: red; font-size: 40px;">INSTALACIÓN</h1>
+                    </a>
+            </div>
+            <div class="rutas">
+                <h1 style="font-size: 40px; color: gray; text-align: center;">Rutas:</h1>
+                <h1 class="l"> <span style="color: #00ff00;">MC.SPRX:</span>  devhdd0/tmp</h1>
+                <h1 class="l"> <span style="color: #00ff00;">EBOOT.BIN:</span>  devhdd0/game/NPUB31419/USRDIR</h1>
+                <h1 style="font-size: 40px; color: gray; text-align: center;">Links:</h1>
+            </div>
+            <div class="linksprx">
+                <a href="https://www.mediafire.com/file/xk7mgxp0npeh5c8/MC.sprx/file" target="_blank">
+                    <h1>LINK 1 (MC.SPRX)</h1>
+                </a>
+                <a href="https://www.mediafire.com/file/54jafpg1gwe5grc/EBOOT.BIN/file" target="_blank">
+                    <h1> LINK 2 (EBOOT.BIN)</h1>
+                </a>                
+            </div>
+                <p>LA DIRECCIÓN DE EL EBOOT VARÍA SEGÚN LA REGIÓN DE EL JUEGO, EN ESTE CASO SE UTILIZA LA "NPUB31419" PERO SI TIENES, POR EJEMPLO, LA "NPUB1934" TIENES QUE CAMBIAR ESTO:</p>
+                <h1 style="text-align: center;">devhdd0/game/NPUB31419/USRDIR</h1>
+                <p>POR ESTO:</p>
+                <h1 style="text-align: center;">devhdd0/game/NPUB1934/USRDIR</h1>
+            </div>    
+            </div>
+        
+        <div class="movil">
+            <div class="cajam">
+                <div class="linksm">
+                    <a href="https://www.youtube.com/watch?v=UlpJ1SHft38">
+                        <h1 style="color: red; font-size: 30px;">INSTALACIÓN</h1>
+                    </a>
+                </div>
+                <div class="rutasm">
+                    <h1 style="color: gray; text-align: center; font-size: 30px;"> RUTAS:</h1>
+                    <h1 class="lm"> <span style="color: #00ff00; font-size: 30px;">MC.SPRX:</span>  <span style="font-size: 25px;">devhdd0/tmp</span></h1>
+                    <h1 class="lm"> <span style="color: #00ff00; font-size: 30px;">EBOOT.BIN:</span>  <span style="font-size: 17px;">devhdd0/game/NPUB31419/USRDIR</span></h1>
+                    <h1 style="color: gray; text-align: center; font-size: 30px;"> LINKS:</h1>
+                </div>
+                <div class="linksm">
+                    <a href="https://www.mediafire.com/file/xk7mgxp0npeh5c8/MC.sprx/file" target="_blank">
+                        <h1 style="font-size: 30px;">LINK 1 (MC.SPRX)</h1>
+                    </a>
+                    <a href="https://www.mediafire.com/file/54jafpg1gwe5grc/EBOOT.BIN/file" target="_blank">
+                        <h1 style="font-size: 30px;"> LINK 2 (EBOOT.BIN)</h1>
+                    </a>
+                    </div>
+                    <p style="margin: 0 5px 0 0;">LA DIRECCIÓN DE EL EBOOT VARÍA SEGÚN LA REGIÓN DE EL JUEGO, EN ESTE CASO SE UTILIZA LA "NPUB31419" PERO SI TIENES, POR EJEMPLO, LA "NPUB1934" TIENES QUE CAMBIAR ESTO:</p>
+                    <h1 style="text-align: center; font-size: 20px;">devhdd0/game/NPUB31419/USRDIR</h1>
+                    <p style="margin: 0 5px 0 0;">POR ESTO:</p>
+                    <h1 style="text-align: center; font-size: 20px;">devhdd0/game/NPUB1934/USRDIR</h1>
+            </div>
+        </div>
     </div>
 
 </body>
