@@ -1,0 +1,147 @@
+body{
+    background-color: #1b1b1b;
+}
+
+.resolucion{
+    width: 99%;
+}
+/* Movil */
+@media (max-width: 767px){
+
+    .pc{display: none;}
+
+}
+/* PC */
+@media (min-width: 991px){
+
+    .movil{display: none;}
+
+}
+/* PC CCS */
+.tit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.img1{
+    margin-right: 30px;
+    border: 7px dotted red;
+}
+.img2{
+    margin-right: 30px;
+    border: 8px dotted aqua;
+}
+.img3{
+    margin-right: 30px;
+    border: 9px dotted blue;
+}
+.mods{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #00ff00;
+}
+.imgco{
+    width: 100%;
+    text-align: center;
+}
+.imgxd{
+    display: inline-block;
+    width: 200px;
+    margin: 5px 50px 50px 50px;
+    vertical-align: top;
+    text-align: center;
+}
+.imgxd img{
+    width: 100%;
+    height: auto;
+    border: 2px solid #00FF00;
+}
+.imgxd h1{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.serv{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 7px 6px 3px #000000;
+}
+.card {
+    background: white;
+    color: black;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #444;
+    border-radius: 10px;
+    box-shadow: 10px 11px 5px #000;
+}
+.titlecd {
+    font-weight: bold;
+    font-size: 18px;
+}
+.ip{
+    font-weight: bold;
+    color: #0066cc;
+}
+.creador {
+    font-size: 14px;
+    color: #333;
+}
+.act{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 8px 2px #000000;
+}
+.box{
+    background-color: #0e0e0e;
+}
+.juegos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.act2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(31, 31, 211);
+    text-shadow: 10px 5px #000000;
+}
+.mods2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #00ff00;
+}
+
+/* TELEFONO CSS */
+.titmovil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+.img1movil{
+    margin-right: 20px;
+    border: 7px dotted red;
+}
+.img2movil{
+    margin-right: 20px;
+    border: 7px dotted aqua;
+}
+.img3movil{
+    margin-right: 20px;
+    border: 7px dotted blue;
+}
+.actmovil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(23, 23, 161);
+    text-shadow: 8px 2px #000000;
+}
+.boxmovil{
+    background-color: #00000080;
+}
+.juegosmovil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.act2movil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(23, 23, 161);
+    text-shadow: 10px 5px #000000;
+}

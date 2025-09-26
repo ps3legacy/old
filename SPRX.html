@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La PlayStation 3 (PS3) es la tercera consola de sobremesa de Sony, parte de la séptima generación de consolas. Fue lanzada en 2006 y compitió con Xbox 360 y Wii.">
+    <title>PS3 Legacy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icono.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url("fondo.jpg");
+            background-size: cover;
+            background-position: center; 
+            background-attachment: fixed;
+            background-repeat: no-repeat; 
+        }
+        .caja{
+            margin: 50px auto 100px auto;
+            max-height: 90vh; 
+            width: 900px;
+            padding: 20px;
+            background-color: rgba(0,0,0,0.5);
+            text-align: center;
+            border-radius: 8px;
+            overflow-y: auto;
+            zoom: 0.97;
+        }
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 30px;
+            color: red;
+        }
+        .btn-regresar {
+            position: fixed;   
+            top: 10px;        
+            left: 10px;   
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+       .btn-regresar img {
+            width: 100%;
+            height: auto;
+            display: block;
+       }
+    </style>
+
+</head>
+
+<body>
+
+    <a href="index.html" class="btn-regresar">
+        <img src="img.png" alt="Regresar">
+    </a>
+
+    <div class="caja">
+        <div class="linksprx">
+            <a href="https://www.youtube.com/watch?v=UlpJ1SHft38">
+                <h1 style="color: red; font-size: 60px;">TUTORIAL</h1>
+            </a>
+            <a href="https://www.mediafire.com/file/xk7mgxp0npeh5c8/MC.sprx/file" target="_blank">
+                <h1>LINK 1 (MC.SPRX)</h1>
+            </a>
+            <a href="https://www.mediafire.com/file/54jafpg1gwe5grc/EBOOT.BIN/file" target="_blank">
+                <h1> LINK 2 (EBOOT.BIN)</h1>
+            </a>
+        </div>
+        <div class="rutas">
+                <h1 style="font-size: 60px; color: cyan;">Rutas:</h1>
+                <h1> <span style="color: #00ff00;">MC.SPRX:</span>  devhdd0/tmp</h1>
+                <h1> <span style="color: #00ff00;">EBOOT.BIN:</span>  devhdd0/game/NPUB31419/USRDIR</h1>
+                <p>LA DIRECCIÓN DE EL EBOOT VARÍA SEGÚN LA REGIÓN DE EL JUEGO, EN ESTE CASO SE UTILIZA LA "NPUB31419" PERO SI TIENES, POR EJEMPLO, LA "NPUB1934" TIENES QUE CAMBIAR ESTO:</p>
+                <h1>devhdd0/game/NPUB31419/USRDIR</h1>
+                <p>POR ESTO:</p>
+                <h1>devhdd0/game/NPUB1934/USRDIR</h1>
+        </div>
+    </div>
+
+
+</body>
+</html>
